@@ -1,9 +1,9 @@
-# Python Trading Bot
+# Python Live Trading Bot
 
 ## Objective
 [Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Driven and innovative developer with a passion for financial markets and algorithmic trading. Seeking opportunities to leverage my expertise in developing a live trading bot utilizing brokers' APIs. My trading bot employs a sophisticated yet simple strategy, analyzing live market data to generate long and short signals based on the High, Low, Open, and Close prices of the three previous candles. With the ability to adapt to various financial instruments and chart types, my trading bot aims to automate the process of entering positions in the market, providing users with a reliable tool for executing trading strategies efficiently and effectively.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
