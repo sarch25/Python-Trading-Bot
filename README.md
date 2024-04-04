@@ -23,9 +23,8 @@ Driven and innovative developer with a passion for financial markets and algorit
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
-<img src="https://i.imgur.com/42t2x9V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![Screenshot 2024-04-04 100636](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/46482be7-003e-4c70-be09-867a43acc6a5)
 
-<img src="https://imgur.com/a/w4ShUxJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Every screenshot should have some text explaining what the screenshot is about.
 
