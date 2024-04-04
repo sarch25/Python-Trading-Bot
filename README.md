@@ -23,6 +23,9 @@ Driven and innovative developer with a passion for financial markets and algorit
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
+<img src="https://i.imgur.com/42t2x9V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://imgur.com/a/w4ShUxJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Every screenshot should have some text explaining what the screenshot is about.
 
