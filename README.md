@@ -26,6 +26,11 @@ drag & drop screenshots here or use imgur and reference them using imgsrc
 ![Screenshot 2024-04-04 100636](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/46482be7-003e-4c70-be09-867a43acc6a5)
 
 
+![Screenshot 2024-04-07 083030](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/2a0d5b60-4752-40c9-8e98-24ab59ac3439)
+
+
+![Screenshot 2024-04-07 083556](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/7493874c-af8d-4472-9cb7-3ea65502e604)
+
 Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
