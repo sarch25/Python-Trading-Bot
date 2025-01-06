@@ -1,9 +1,11 @@
-# Python Live Trading Bot
+# Python Automated Live Trading Bot
 
 ## Summary
-This live trading bot uses a clear and uncomplicated approach to evaluate real-time market data and produce long and short signals based on the High, Low, Open, and Close values of the last three candles. It was developed using Python code and integrates the Oanda API, Yahoo Finance, and Pandas. The bot's goal is to automate the process of taking positions in the market by utilizing engulfing patterns as entry triggers. It is made to adapt to different financial instruments. 
+This live trading bot uses a clear and uncomplicated approach to evaluate real-time market data and produce long and short signals based on the High, Low, Open, and Close values of the last three candles. 
 
-For example, a long position is indicated if the current candle opens below the two preceding candles and closes above them; a short position is indicated if the candle opens above and closes below. And an automated trade will be made. This is not financial advise.
+It was developed using Python code and integrates the Oanda API, Yahoo Finance, and Pandas. The bot's goal is to automate the process of taking positions in the market by utilizing engulfing patterns as entry triggers. It is made to adapt to different financial instruments. 
+
+For example, a long position is indicated if the current candle opens below the two preceding candles and closes above them, a short position is indicated if the candle opens above and closes below. And an automated trade will be made. This is not financial advise.
 
 ![Screenshot 2024-04-07 083556](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/7493874c-af8d-4472-9cb7-3ea65502e604)
 
@@ -27,20 +29,18 @@ For example, a long position is indicated if the current candle opens below the 
 
 ![Screenshot 2024-04-04 100636](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/46482be7-003e-4c70-be09-867a43acc6a5)
 #
-
-#### The BlockingScheduler from the APScheduler library is configured to execute the trading_job function at specified intervals, running every hour on weekdays (mon-fri) at specific minutes (1, 16, 31, and 46). 
+ 
 #### Below the code, is a example output that demonstrates a trading transaction, including details such as the order type, instrument (EUR/USD), and the number of units traded. This setup ensures trades are executed systematically at predefined times.
+#### The BlockingScheduler from the APScheduler library is configured to execute the trading_job function at specified intervals, running every hour on weekdays (mon-fri) at specific times.
 
 ![Screenshot 2024-04-17 262850](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/61e368a9-a319-49a8-b7a7-352ea0cac8c0)
+#
 
-#### The image showcases a Python code snippet that handles trade execution based on signal values. If the signal equals 1 (indicating a sell signal), a market order is created to sell 1,000 units of EUR/USD with a take-profit price specified. If the signal equals 2 (indicating a buy signal), a market order is created to buy 1,000 units of EUR/USD with a similar take-profit setup. The orders are sent via the client.request method, and the response (rv) is printed to verify the transaction details.
+#### This snippet of Python code handles trade execution based on signal values. If the signal equals 1 (indicating a sell signal), a market order is created to sell 1,000 units of EUR/USD with a take-profit price specified. 
+#### If the signal equals 2 (indicating a buy signal), a market order is created to buy 1,000 units of EUR/USD with a similar take-profit setup.
 ![Screenshot 2024-04-07 083030](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/2a0d5b60-4752-40c9-8e98-24ab59ac3439)
+#
 
-#### This image displays a chart illustrating the trade executed by the trading bot. The chart highlights the entry point, as well as the predefined take-profit and stop-loss levels, which were determined based on the bot's signals. It provides a visual representation of the trade's execution and risk management strategy.
+#### This is a real time chart illustrating the trade executed by the trading bot! The chart shows the entry point, as well as the predefined take-profit and stop-loss levels.
 ![Screenshot 2024-04-07 083556](https://github.com/sarch25/Python-Trading-Bot/assets/130470960/7493874c-af8d-4472-9cb7-3ea65502e604)
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+#
